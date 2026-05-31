@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TFG: Análisis Espacial de la universidad ETSAV | Archi+leukos</title>
+  <meta name="description" content="Portfolio de arquitectura de Lucia Lopez Aguilera">
+  <link rel="stylesheet" href="../../assets/css/site.css">
+</head>
+<body class="content-page project-page">
+  <header class="site-header">
+    <a class="brand" href="../../">archileukos.com</a>
+    <nav class="site-nav" aria-label="Navegacion principal">
+      <div class="nav-item has-dropdown">
+        <a href="../">Proyectos <span aria-hidden="true">⌃</span></a>
+        <div class="dropdown">
+          <a href="../proyecto-pliegues-convivencia/">Pliegues de convivencia</a>
+<a href="../conectar-para-revivir/">Conectar para revivir</a>
+<a href="../a-supernormal-greenway/">A Supernormal greenway</a>
+<a href="../recuperar-el-horizonte/">Recuperar el horizonte</a>
+<a href="./">TFG: Análisis Espacial de la universidad ETSAV</a>
+        </div>
+      </div>
+      <a href="../../acerca-de-mi/">Acerca de mi</a>
+    </nav>
+  </header>
+  <main class="site-main">
+    <article class="wp-content">
+      <p class="has-text-align-center" style="font-size:3.5rem">TFG: Análisis espacial de la universidad ETSAV</p>
+<p class="has-text-align-center has-large-font-size">MÉTODOS DE AYUDA EN EL DISEÑO</p>
+<p class="has-text-align-center has-text-color" style="color:#777777">Keywords: Revit, Dynamo, VR, Unity, Big Data, percepción de usuario</p>
+<p>El objetivo de este trabajo es mostrar herramientas útiles en el diseño de espacios y cómo correlacionarlas para expandir su potencial. Para hacerlo se utiliza como caso de estudio un análisis de la funcionalidad de 4 espacios de la universidad ETSAV. Se define funcionalidad del espacio como <em>la adecuación al uso, así como la flexibilidad, versatilidad y facilidad de adaptación a nuevos usos, necesidades y modos de habitar a lo largo de su ciclo de vida.</em> </p>
+<div class="wp-block-columns"><div class="wp-block-column"><div class="wp-block-columns"><div class="wp-block-column"><figure class="wp-block-image aligncenter size-large"><img src="../../assets/uploads/2023/09/biblio-1024x698.png" alt="" class="wp-image-370"/><figcaption class="wp-element-caption">Biblioteca</figcaption></figure>
+</div>
+<div class="wp-block-column"><figure class="wp-block-image aligncenter size-large"><img src="../../assets/uploads/2023/09/cafe-1024x698.png" alt="" class="wp-image-372"/><figcaption class="wp-element-caption">Cafetería</figcaption></figure>
+</div>
+</div>
+</div>
+<div class="wp-block-column"><div class="wp-block-columns"><div class="wp-block-column"><figure class="wp-block-image aligncenter size-large"><img src="../../assets/uploads/2023/09/taller-1024x698.png" alt="" class="wp-image-369"/><figcaption class="wp-element-caption">Aula taller</figcaption></figure>
+</div>
+<div class="wp-block-column"><figure class="wp-block-image aligncenter size-large"><img src="../../assets/uploads/2023/09/teorica-1024x698.png" alt="" class="wp-image-373"/><figcaption class="wp-element-caption">Aula taller</figcaption></figure>
+</div>
+</div>
+</div>
+</div>
+<p>Para poder estudiar esta funcionalidad se han de conocer 3 bases:</p>
+<ul><li>Uso para el cual están concebidos los espacios</li>
+<li>Características físicas de los espacios</li>
+<li>Uso que realizan las personas de estos</li>
+</ul>
+<p>Este trabajo se compone de dos tipos de análisis paralelos, uno cuantitativo y otro cualitativo. En el cuantitativo se analiza la sintaxis espacial y las características cuantitativas del espacio y el segundo tratará sobre la cara cualitativa y el efecto del espacio en las personas. </p>
+<figure class="wp-block-image aligncenter size-large"><img src="../../assets/uploads/2023/09/diag-1-1024x704.png" alt="" class="wp-image-363" style="object-fit:cover"/></figure>
+<p>Para hacer más amena la explicación se propone el análisis de un espacio concreto: la cafetería. El primer paso es analizar las condiciones del espacio. Para esto se utiliza Dynamo, una plataforma dentro de REVIT que permite programar funciones y se suele usar para la parametrización. Primero se realiza una Isovista. Una Isovista analiza el espacio visible desde un punto concreto. En este caso, este centro será el punto donde existe un mayor flujo de personas. Los resultados se dan en forma de lista de datos, que indican valores como la proporción entre el largo y ancho del espacio o las distancias entre objetos. </p>
+<div class="wp-block-columns"><div class="wp-block-column" style="flex-basis:66.66%"><figure class="wp-block-image aligncenter size-full"><img src="../../assets/uploads/2023/09/cafe-5.png" alt="" class="wp-image-425" style="object-fit:cover"/><figcaption class="wp-element-caption">Isovista</figcaption></figure>
+</div>
+<div class="wp-block-column" style="flex-basis:33.33%"><figure class="wp-block-image aligncenter size-full is-resized"><img src="../../assets/uploads/2023/09/cafe-iso-data.png" alt="" class="wp-image-422" style="width:219px;height:222px" width="219" height="222"/><figcaption class="wp-element-caption">Datos extraídos de Isovista</figcaption></figure>
+</div>
+</div>
+<p>Luego se realiza un análisis de accesibilidad, que indica las zonas más recónditas y más centrales en el espacio. Por último, se lleva a cabo un análisis lumínico, para ver qué zonas quedan más y menos iluminadas. En este caso toda la cafetería tiene buena iluminación aunque hay una zona que depende únicamente de la iluminación artificial.</p>
+<div class="wp-block-columns"><div class="wp-block-column is-vertically-aligned-center"><div class="wp-block-columns"><div class="wp-block-column"><figure class="wp-block-image aligncenter size-large"><img src="../../assets/uploads/2023/09/cafe-metric-closseness-2-1024x379.png" alt="" class="wp-image-420"/><figcaption class="wp-element-caption">Cercanía métrica</figcaption></figure>
+</div>
+</div>
+</div>
+<div class="wp-block-column is-vertically-aligned-center"><figure class="wp-block-image aligncenter size-full"><img src="../../assets/uploads/2023/09/cafe-luz-2.png" alt="" class="wp-image-382"/><figcaption class="wp-element-caption">Grado de iluminación</figcaption></figure>
+</div>
+</div>
+<p>El siguiente paso será realizar el análisis cualitativo, donde una muestra de posibles usuarios (estudiantes y profesores de arquitectura de otras universidades) visitan el espacio proyectado de manera virtual y responden a preguntas sobre su uso. A su vez, también se encuesta a una muestra de estudiantes y profesores de la misma universidad. Las respuestas de ambas encuestas se pueden comparar para verificar el parecido del entorno virtual al real. Las respuestas en el entorno virtual se realizan a través de una herramienta llamada VREVAL. </p>
+<div class="wp-block-columns"><div class="wp-block-column"><figure class="wp-block-image aligncenter size-large"><img src="../../assets/uploads/2023/09/encuestas-vreval-1-1024x582.png" alt="" class="wp-image-387"/><figcaption class="wp-element-caption">Cuestionario virtual (VREVAL)</figcaption></figure>
+</div>
+<div class="wp-block-column"><figure class="wp-block-image aligncenter size-full"><img src="../../assets/uploads/2023/09/quest-2.png" alt="" class="wp-image-418"/><figcaption class="wp-element-caption">Cuestionario presencial (Google Forms)</figcaption></figure>
+</div>
+</div>
+<p>Una vez obtenidos los datos de las dos maneras que hemos visto llegar a una 3era parte y es evaluar los resultados obtenidos. En este trabajo se exploran dos posibles maneras de correlacionar los análisis.</p>
+<p>La primera consiste en la correlación de las características espaciales obtenidas en la Isovista con las valoraciones de las encuestas. Para ello se ordenan de forma ascendente los espacios y sus características según las valoraciones del 1 al 7 obtenidas en relación a 4 parámetros: facilidad de orientación, capacidad de ser acogedor, ordenación y adaptación al uso. Para cada parámetro se calcula el coeficiente de Pearson con cada una de las características físicas, intentando encontrar alguna relación fuerte. </p>
+<div class="wp-block-columns"><div class="wp-block-column"><figure class="wp-block-image size-large"><img src="../../assets/uploads/2023/09/tabla-1-1024x181.png" alt="" class="wp-image-432"/></figure>
+</div>
+<div class="wp-block-column"><figure class="wp-block-image size-large"><img src="../../assets/uploads/2023/09/tabla-2-1024x179.png" alt="" class="wp-image-433"/></figure>
+</div>
+</div>
+<div class="wp-block-columns"><div class="wp-block-column"><figure class="wp-block-image size-large"><img src="../../assets/uploads/2023/09/tabla-3-1024x180.png" alt="" class="wp-image-434"/></figure>
+</div>
+<div class="wp-block-column"><figure class="wp-block-image size-large"><img src="../../assets/uploads/2023/09/tabla-4-1024x183.png" alt="" class="wp-image-435"/></figure>
+</div>
+</div>
+<p>De esta manera intentamos encontrar una relación, como es este caso donde una compacidad mayor lleva una mejor adaptación al uso. Sin embargo, hay que tener en cuenta que los datos obtenidos para este caso en concreto no son válidos, puesto que equivalen a espacios con funciones muy diferentes y para tener unos resultados verídicos necesitamos comparar nuestra cafetería con otras cafeterías de otras universidades.</p>
+<p>La segunda manera de comparar resultados es más empírica y consiste en estudiar las zonas dentro del espacio. A partir de los análisis de accesibilidad e iluminación se coge la que se considere la mejor zona para la función deseada. En el caso de la cafetería, ya que es un lugar de ocio, supongamos que decidimos que dicha zona es la que se encuentre alejada del flujo de personas pero con una visual al exterior de la sala. Se escoge entonces la que se consideraría por sus características la mejor zona y se compara con los resultados obtenidos en la encuesta. </p>
+<div class="wp-block-columns"><div class="wp-block-column"><figure class="wp-block-image aligncenter size-large"><img src="../../assets/uploads/2023/09/4-1-1024x390.png" alt="" class="wp-image-438"/><figcaption class="wp-element-caption">Mejor zona según análisis visual, métrico y lumínico</figcaption></figure>
+</div>
+<div class="wp-block-column"><figure class="wp-block-image aligncenter size-large"><img src="../../assets/uploads/2023/09/Academic-use-only-3-1024x369.png" alt="" class="wp-image-439"/><figcaption class="wp-element-caption">Zonas escogidas por los encuestados</figcaption></figure>
+</div>
+</div>
+<p>El uso de este tipo de análisis es muy útil en todas las etapas del diseño, ya que no sólo permite tener una mejor comprensión espacial del proyecto sino que permite jugar con las diferentes opciones que tenemos en la cabeza, sobre todo en el caso de personas inexpertas como nosotros los estudiantes de arquitectura. Es una manera fácil de explorar nuestros proyectos y puede tener grandes implicaciones: como el ahorro de tiempo e inversión por problemas evitables, la modificación o instauración de leyes o incluso la creación de catálogos o guías de diseño, como lo fue en su época los diez tratados de arquitectura de Vitruvio.</p>
+<p></p>
+    </article>
+  </main>
+  <footer class="site-footer">
+    <span>Archi+leukos</span>
+  </footer>
+</body>
+</html>
