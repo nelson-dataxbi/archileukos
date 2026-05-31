@@ -67,8 +67,16 @@ img {
 
 .nav-item > a {
   display: inline-flex;
-  gap: 4px;
-  align-items: baseline;
+  gap: 7px;
+  align-items: center;
+}
+
+.dropdown-indicator {
+  width: 0.45rem;
+  height: 0.45rem;
+  border-right: 1px solid currentColor;
+  border-bottom: 1px solid currentColor;
+  transform: rotate(45deg) translateY(-1px);
 }
 
 .dropdown {
