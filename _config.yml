@@ -1,7 +1,7 @@
 title: Archi+leukos
 description: Portfolio de arquitectura de Lucia Lopez Aguilera
 url: "https://www.archileukos.com"
-baseurl: "/archileukos"
+baseurl: ""
 
 defaults:
   - scope:

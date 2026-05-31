@@ -151,12 +151,12 @@ GitHub Pages publicará la web automáticamente. Puede tardar entre 1 y 3 minuto
 URL actual:
 
 ```txt
-https://nelson-dataxbi.github.io/archileukos/
+https://www.archileukos.com/
 ```
 
 ## Notas importantes
 
 - No edites archivos dentro de `_site/` si aparece esa carpeta: es una carpeta generada.
 - No borres `_config.yml`, `_layouts/default.html` ni `_data/projects.yml`.
-- Si se configura un dominio propio como `archileukos.com`, habrá que actualizar `url` y `baseurl` en `_config.yml`.
+- La configuración del dominio propio está en `_config.yml`: `url` debe ser `https://www.archileukos.com` y `baseurl` debe estar vacío.
 - El estilo visual principal está en `assets/css/site.css`.
