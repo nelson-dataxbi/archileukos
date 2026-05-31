@@ -1,0 +1,43 @@
+- title: Pliegues de convivencia
+  slug: proyecto-pliegues-convivencia
+  thumbnail: /assets/img/proyectos/TAP-10-1-1-300x300.png
+  image_class: wp-image-29
+  row: "1"
+
+- title: Conectar para revivir
+  slug: conectar-para-revivir
+  thumbnail: /assets/img/proyectos/TAP-10-2-300x300.png
+  image_class: has-border-color has-base-border-color wp-image-25
+  image_style: "border-width:10px;width:300px;height:300px"
+  width: 300
+  height: 300
+  row: "1"
+
+- title: Recuperar el horizonte
+  slug: recuperar-el-horizonte
+  thumbnail: /assets/img/proyectos/TAP-10-8-300x300.png
+  image_class: wp-image-35
+  row: "1"
+
+- title: A Supernormal greenway
+  slug: a-supernormal-greenway
+  thumbnail: /assets/img/proyectos/TAP-10-19-300x300.png
+  image_class: wp-image-448
+  image_style: "width:304px;height:304px"
+  width: 304
+  height: 304
+  column_class: is-vertically-aligned-center
+  column_style: "padding-left:0"
+  row: "2"
+
+- title: "TFG: Análisis Espacial de la universidad ETSAV"
+  slug: tfg-analisis-espacial-de-la-universidad-etsav
+  thumbnail: /assets/img/proyectos/ETSAV.rvt_2023-Jun-17_04-25-12PM-000_Vista_3D_8_png-1-300x247.png
+  image_class: wp-image-447
+  image_style: "width:334px;height:275px"
+  width: 334
+  height: 275
+  column_class: is-vertically-aligned-bottom
+  column_style: "padding-right:0;padding-left:0"
+  caption_prefix: "<br>"
+  row: "2"

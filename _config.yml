@@ -1,0 +1,10 @@
+title: Archi+leukos
+description: Portfolio de arquitectura de Lucia Lopez Aguilera
+url: "https://nelson-dataxbi.github.io"
+baseurl: "/archileukos"
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
